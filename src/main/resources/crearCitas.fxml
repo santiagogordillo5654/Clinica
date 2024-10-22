@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="co.edu.uniquindio.clinica.Controladores.CrearCitasControlador">
+
+    <DatePicker fx:id="datePicker" />
+    <ComboBox fx:id="comboPacientes" />
+    <ComboBox fx:id="comboServicios" />
+    <Button fx:id="btnCrearCita" text="Crear cita" onAction="#crearCita" />
+
+</VBox>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox prefHeight="600.0" prefWidth="800.0" spacing="10.0" style="-fx-padding: 10px;" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="co.edu.uniquindio.clinica.Controladores.PanelControlador2">
+
+    <children>
+        <TabPane fx:id="tabPane" VBox.vgrow="ALWAYS">
+            <tabs>
+                <Tab fx:id="tab1" closable="false" text="Registro Paciente" />
+                <Tab fx:id="tab2" closable="false" text="Lista de Pacientes" />
+                <Tab fx:id="tab3" closable="false" text="Crear Cita" />
+                <Tab fx:id="tab4" closable="false" text="Listar Citas" />
+                <Tab fx:id="tab5" closable="false" text="Servicios Disponibles" />
+            </tabs>
+        </TabPane>
+    </children>
+
+</VBox>
